@@ -1,0 +1,28 @@
+nav {
+    color: teal;
+}
+body { font-weight: 900;
+}
+#article1 {
+    font-weight: 300;
+}
+img {
+    height: 450px; width: 750px;
+}
+
+span {color: teal;}
+span.newtri {color: thistle;}
+.newtri {color: tomato;}
+div div span {color: wheat;}
+div div span.newtri {color: white;}
+.newone {color: whitesmoke;}
+
+.one {color: darkseagreen;}
+.one:hover {color: yellow;}
+.one:visited {color: crimson;}
+.two {color: yellowgreen;}
+.tri {color: blueviolet;}
+.chet {font-size: 40px;}
+.five {color: chartreuse;}
+.six {color: chocolate;}
+.seven {color: coral;}
