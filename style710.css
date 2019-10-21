@@ -1,0 +1,125 @@
+/* *{ box-sizing: border-box;}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{padding: 0px; width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+.col-1.bg {
+    background-image: url(thumb-1920-72397.jpg);
+    background-size: cover;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 2px solid red;
+    }
+.clearfix {content: "";
+        clear: both;
+        display: block;
+        }
+/* @media (min-width: 480px) and (max-width: 600px) {
+            body {
+            background: red;
+            }
+            } */
+/* @media (max-width: 600px) {
+    body {
+        background: rgb(211, 6, 252);
+    }
+    [class*="col-"] {
+        width: 25%;
+    }
+}
+@media (max-width: 480px) {
+    body {
+        background: rgb(6, 252, 178);
+    }
+    [class*="col-"] {
+        width: 33.33%;
+    }
+}
+@media (max-width: 320px) {
+    body {
+        background: rgb(6, 252, 6);
+    }
+    [class*="col-"] {
+        width: 50%;
+    }
+} */
+/* @media (max-width: 600px) {
+    body {
+        background: rgb(6, 252, 6);
+    }
+.col-m-1{width: 8.33%;}
+.col-m-2{width: 16.66%;}
+.col-m-3{width: 25%;}
+.col-m-4{width: 33.33%;}
+.col-m-5{width: 41.66%;}
+.col-m-6{width: 50%;}
+.col-m-7{width: 58.33%;}
+.col-m-8{width: 66.66%;}
+.col-m-9{width: 75%;}
+.col-m-10{width: 83.33%;}
+.col-m-11{width: 91.66%;}
+.col-m-12{width: 100%;}
+}
+@media (max-width: 480px) {
+    body {
+        background: rgb(6, 22, 252);
+    }
+.col-s-1{width: 8.33%;}
+.col-s-2{width: 16.66%;}
+.col-s-3{width: 25%;}
+.col-s-4{width: 33.33%;}
+.col-s-5{width: 41.66%;}
+.col-s-6{width: 50%;}
+.col-s-7{width: 58.33%;}
+.col-s-8{width: 66.66%;}
+.col-s-9{width: 75%;}
+.col-s-10{width: 83.33%;}
+.col-s-11{width: 91.66%;}
+.col-s-12{width: 100%;}
+}
+img {
+    width: 100%;
+    height: auto;
+} */
+body {margin: 0;}
+.flex {
+    min-height: 150px;
+    background: rgb(0, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-content: space-around;
+}
+.flex-item {
+    padding: 15px;
+    border: 2px solid rgb(255, 0, 157);
+    height: auto;
+    flex-basis: 100px;
+}
+.flex-item:nth-child(2) {
+    order: 1;
+    background: springgreen;
+    flex-grow: 2;
+}
+.flex-item:nth-child(4) {
+    order: 2;
+    background: springgreen;
+    flex-grow: 4;
+    align-self: flex-end;
+}
+.flex-item:nth-child(1) {
+    order: 3;
+    background: springgreen;
+}
